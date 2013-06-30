@@ -7,3 +7,21 @@ All documentation for the Pagelist Plugin is available online at:
 (c) 2005 - 2007 by Esther Brunner <wikidesign@gmail.com>
 (c) 2008 - 2010 by Gina Häußge, Michael Klier <dokuwiki@chimeric.de>
 See COPYING for license info.
+
+====== Goals of modification ======
+
+News system — DokuWiki
+
+Dostosowanie trójki pluginów: blog, pagelist i include w celu stworzenia systemu obsługi aktualności w ramach strony opartej o dokuwiki. Wymagania:
+
+    Umieszczanie aktualności w poddrzewie przestrzeni nazw DW (hierarchia kategorii).
+    Możliwość umieszczenia, przy pomocy odpowiedniego tagu, listy:
+        Tytułów wiadomości z linkami do podstron.
+        Tytułów wiadomości (link) wraz z datą utworzenia (span).
+        j.w., ale z kwadratową miniaturą dla pierwszej wiadomości.
+        Serii bloków, z których każdy składa się z kwadratowej miniatury, tytułu wiadomości, zajawki (określona liczba wyrazów/znaków lub fragment przed znacznikiem typu MORE).
+        j.w., ale z większym obrazkiem dla pierwszej wiadomości.
+    Możliwość dodawania tagów do artykułów (przy pomocy istniejącego pluginu DW).
+    Udostępnianie kanałów RSS dla poszczególnych kategorii newsów.
+
+Projekt realizowany w oparciu o github, na forkach repozytoriów trzech ww. pluginów.
